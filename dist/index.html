@@ -251,23 +251,23 @@
         </div>
 
     <div class="flex flex-wrap flex-col gap-5 mt-9 lg:w-[30%]">
-        <input type="text" placeholder="e.g. example@email.com" class="py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono">
-        <input type="text" placeholder="e.g. Divanshu" class="py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"> 
-        <textarea name="message" placeholder="Write your message" class="py-1 rounded px-3 lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"></textarea>
+        <input type="email" placeholder="e.g. example@email.com" id="email" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono">
+        <input type="text" placeholder="e.g. Divanshu" id="Name" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"> 
+        <textarea placeholder="Write your message" id="messageBox" class=" py-1 rounded px-3 lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"></textarea>
 
-        <button class="text-white px-5 py-1 rounded mt-4 
+        <button class="Btn-Submit text-white px-5 py-1 rounded mt-4 
         border border-red-700 hover:border-none
         dark:text-black
         hover:bg-gradient-to-r hover:from-pink-700
          hover:to-indigo-700 hover:text-black font-bold text-lg hover:shadow-md hover:shadow-pink-200 transition ease-in-out duration-500 delay-150
-        dark:hover:shadow-md dark:hover:shadow-pink-500 dark:transition dark:ease-in-out dark:duration-500 dark:delay-150 lg:w-[400px]">Send</button>
+        dark:hover:shadow-md dark:hover:shadow-pink-500 dark:transition dark:ease-in-out dark:duration-500 dark:delay-150 lg:w-[400px]" onclick="Send()">Send</button>
     </div>
 
     </section>
 
     <!-- Footer Section -->
 
-    <footer class="w-100 h-auto flex flex-col justify-center items-center mt-12 bg-red-700 space-y-14">
+    <footer class="w-100 h-auto flex flex-col justify-center items-center mt-12 bg-gradient-to-br from-red-700 to-purple-700 space-y-14">
         <h1 class="text-white text-[45px] font-semibold">Let's Talk</h1>
 
         <div class="lg:flex flex justify-center gap-12 items-center">
@@ -298,5 +298,6 @@
             document.querySelector('.slid-bar').classList.toggle('left-[-300px]');
             })
         </script>
+        <script src="./SendMessage.js"></script>
 </body>
 </html>

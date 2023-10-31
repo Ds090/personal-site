@@ -675,8 +675,8 @@ video {
   width: 300px;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[320px\] {
+  width: 320px;
 }
 
 .w-\[50\%\] {
@@ -693,10 +693,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[320px\] {
-  width: 320px;
 }
 
 .transform {
