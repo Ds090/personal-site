@@ -33,13 +33,13 @@ function ValidEmail() {
     let ValidEmail = EmailCopy.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g);
 
     if (ValidEmail) {
-        mailValid.innerHTML = "Valid Mail!"
+        mailValid.innerHTML = "Valid Email Address!"
         mailValid.style.color = "#38bdf8"
     }else if(EmailCopy.length == 0){
         mailValid.innerText = "";
     }
     else{
-        mailValid.innerText = "Please Enter Valid Email Adderss!"  
+        mailValid.innerText = "Please Enter Valid Email Address!"  
         mailValid.style.color = "red"
     }
     
