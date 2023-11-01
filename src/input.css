@@ -5,3 +5,17 @@
 .display-none{
     @apply hidden;
     }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .active{
+        background-image: linear-gradient(to left, red , purple);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    

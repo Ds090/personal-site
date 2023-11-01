@@ -44,3 +44,23 @@ function ValidEmail() {
     }
     
 }
+
+let section = document.querySelectorAll('.section');
+let navLink = document.querySelectorAll('.nav_link');
+
+let currentSection = 'home';
+window.addEventListener('scroll', () =>{
+    section.forEach(sections => {
+        if (window.scrollY >= (sections.offsetTop - sections.clientHeight / 2)) {
+            currentSection = sections.id;
+        }
+    });
+
+    navLink.forEach(navLinks => {
+        if(navLinks.href.includes(currentSection)){
+            document.querySelector('.active').classList.remove('active');
+            navLinks.classList.add('active');
+        }
+    });
+});
+
