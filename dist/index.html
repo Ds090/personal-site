@@ -12,8 +12,8 @@
 
 
 <!-- Nav bar -->
-        <nav class="text-white flex justify-around items-center w-full h-[60px] shadow-md shadow-pink-100 gap-5 font-sans sticky top-0 bg-black dark:bg-white">
-            <h1 class="text-xl font-bold dark:text-black">DIVS.in</h1>
+        <nav class="text-white flex justify-around items-center w-full h-[60px] shadow-md shadow-pink-100 gap-5 font-sans  bg-black dark:bg-white">
+            <h1 class="text-xl font-bold dark:text-black" id="head">DIVS.in</h1>
 
             <ul class="hidden md:flex justify-evenly gap-9">
                 <li class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
@@ -42,51 +42,53 @@
             <div class="nav-toggle md:hidden"  >
                 <i class="fa-solid fa-bars  text-4xl dark:text-black cursor-pointer " ></i>
             </div>
+
+            <div class="slid-bar absolute top-0 bottom-0 w-[300px] h-[400px] left-[-300px] overflow-y-auto  dark:bg-purple-200 bg-black rounded-md md:hidden" >
+                <div class=" ml-3 py-4">
+                    <h1 class="text-white dark:text-black text-2xl dark:text-2xl dark:font-bold font-bold">DIVS.in</h1>
+                </div>
+                <hr class="bg-white py-[1px] shadow-lg shadow-white dark:bg-black ">
+                <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 duration-300 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150 ">
+    
+                    <a href="#home" class="active text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
+                    hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
+                    dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Home</a>
+                    
+                </div>
+                <div class=" p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150">
+    
+                    <a href="#About" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
+                    hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
+                    dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link" >About</a>
+                    
+                </div>
+                <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150   ">
+    
+                    <a href="#Skills" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
+                    hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
+                    dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link" >Skills</a>
+                    
+                </div>
+                <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150   ">
+    
+                    <a href="#portfolio" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
+                    hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
+                    dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Portfolio</a>
+                    
+                </div>
+                <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150  opacity-100">
+    
+                    <a href="#Contact" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
+                    hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
+                    dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Contact</a>
+                    
+                </div>
+    
+            </div>
             
         </nav>
 
-        <div class="slid-bar fixed top-0 bottom-0 w-[300px] h-screen left-[-300px] overflow-y-auto  dark:bg-purple-200 bg-stone-950 rounded-md md:hidden" >
-            <div class=" ml-3 py-4">
-                <h1 class="text-white dark:text-black text-2xl dark:text-2xl dark:font-bold font-bold">DIVS.in</h1>
-            </div>
-            <hr class="bg-white py-[1px] shadow-lg shadow-white dark:bg-black ">
-            <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 duration-300 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150 ">
-
-                <a href="#home" class="active text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
-                hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
-                dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Home</a>
-                
-            </div>
-            <div class=" p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150">
-
-                <a href="#About" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
-                hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
-                dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link" >About</a>
-                
-            </div>
-            <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150   ">
-
-                <a href="#Skills" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
-                hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
-                dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link" >Skills</a>
-                
-            </div>
-            <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150   ">
-
-                <a href="#portfolio" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
-                hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
-                dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Portfolio</a>
-                
-            </div>
-            <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150  opacity-100">
-
-                <a href="#Contact" class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
-                hover:transition hover:ease-in-out hover:duration-300 hover:delay-100 
-                dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 text-white nav_link">Contact</a>
-                
-            </div>
-
-        </div>
+        
 
         <!-- Hero Section -->
 
@@ -101,7 +103,7 @@
             </div>
 
             <div class="text-white md:w-[50%] mt-20">
-                <h1 class="lg:text-[48px] md:font-bold text-[35px] font-bold dark:text-black">Hi, I'm <span class="bg-gradient-to-br from-red-700 to-purple-700 text-transparent bg-clip-text ">Divanshu</span> 
+                <h1 class="lg:text-[48px] md:font-bold text-[40px] font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">Hi, I'm <span class="bg-gradient-to-br from-red-700 to-purple-700 text-transparent bg-clip-text ">Divanshu</span> 
                 </h1>
                 <span class="text-2xl font-semibold dark:text-black font-mono">Web Developer</span> 
                 
@@ -126,7 +128,7 @@
         <!-- About Section -->
 
         <div id="About" class="section text-center mb-5" >
-            <h1 class="text-white dark:text-black text-4xl font-semibold">About</h1>
+            <h1 class="text-4xl font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">About</h1>
             <div class="flex justify-center">
             <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 w-28 anim"></div></div>
         </div>
@@ -143,7 +145,7 @@
         <!-- Skills Sections -->
 
         <div id="Skills" class="section text-center mt-9 mb-3">
-            <h1 class="text-white dark:text-black text-4xl font-semibold ">Skills</h1>
+            <h1 class=" text-4xl font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">Skills</h1>
             <div class="flex justify-center">
             <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 w-28 anim"></div></div>
         </div>
@@ -152,7 +154,7 @@
         <div class="w-full flex flex-wrap justify-evenly items-center space-y-3 md:space-x-2 ">
             <div class=" w-[180px] lg:w-[290px]  bg-slate-950 rounded-md hover:shadow-md hover:shadow-white transition inset-x-auto duration-500 delay-150 shadow shadow-white dark:shadow-md dark:shadow-black dark:hover:shadow-lg dark:hover:shadow-black hover:transform hover:scale-95 flex flex-col justify-center items-center px-6 py-4 hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-900">
                 <img src="./c-logo-icon-28389 (1).png" alt="" class="">
-                <h1 class="text-center text-2xl font-bold text-white lg:animate-bounce lg:relative lg:top-2">C++</h1>
+                <h1 class="text-center text-2xl font-bold text-white lg:animate-bounce lg:relative lg:top-2 ">C++</h1>
             </div>
 
             <div class="w-[180px] lg:w-[290px] bg-slate-950 rounded-md hover:shadow-md hover:shadow-white transition inset-x-auto duration-500 delay-150 shadow shadow-white dark:shadow-md dark:shadow-black dark:hover:shadow-lg dark:hover:shadow-black hover:transform hover:scale-95 flex flex-col justify-center items-center px-6 py-4 hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-900">
@@ -191,7 +193,7 @@
     <!-- Prortfolio Section -->
 
     <div id="portfolio" class="section text-center mt-9 mb-3">
-        <h1 class="text-white dark:text-black text-4xl font-semibold ">Portfolio</h1>
+        <h1 class="text-4xl font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">Portfolio</h1>
         <div class="flex justify-center">
         <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 w-[150px] anim"></div></div>
     </div>
@@ -237,14 +239,14 @@
     <!-- Contect Section -->
 
     <div class="text-center mt-9 mb-3">
-        <h1 class="text-white dark:text-black text-4xl font-semibold ">Contact</h1>
+        <h1 class="text-4xl font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">Contact</h1>
         <div class="flex justify-center">
         <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 w-32 anim"></div></div>
 
     <section id="Contact" class="section w-full h-[100%] lg:flex lg:flex-row lg:justify-around lg:items-center flex flex-col items-center">
 
         <div class="lg:flex lg:justify-around lg:items-center lg:w-[30%] mt-6 ">
-            <h1 class="text-white text-[40px] font-semibold font-mono lg:text-[60px] dark:text-black">You Need <br>
+            <h1 class=" text-[40px] font-semibold font-mono lg:text-[60px] bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text">You Need <br>
                  <p class="text-white text-lg dark:text-black lg:text-xl">Beautiful design for your <br> website leave a request.</p></h1><br>
 
                  <div class="flex justify-center">
@@ -273,7 +275,7 @@
     <!-- Footer Section -->
 
     <footer class="w-100 h-auto flex flex-col justify-center items-center mt-12 bg-gradient-to-br from-red-700 to-purple-700 space-y-14">
-        <h1 class="text-white text-[45px] font-semibold">Let's Talk</h1>
+        <h1 class="text-4xl font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-white dark:text-transparent dark:bg-clip-text">Let's Talk</h1>
 
         <div class="lg:flex flex justify-center gap-12 items-center">
             <div  class="border border-indigo-500 rounded-full w-9 h-9 flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-700 hover:to-indigo-700"><a href="https://www.linkedin.com/in/divanshu-kachhawa-34bb18254"><i class="fa-brands fa-linkedin-in cursor-pointer text-xl "></i></a></div>
@@ -293,12 +295,15 @@
         <script>
             let navToggle = document.querySelector('.nav-toggle');
             let Slid_bar = document.querySelector('.slid-bar');
+            let Heading = document.getElementById('head');
 
            navToggle.addEventListener("click", function () {
             if(navToggle.firstElementChild.classList.contains("fa-bars")){
                 navToggle.firstElementChild.classList.replace("fa-bars", "fa-times");
+                Heading.innerText = "";
             }else{
                 navToggle.firstElementChild.classList.replace("fa-times", "fa-bars");
+                Heading.innerText = "DIVS.in"
             }
            let slid =  document.querySelector('.slid-bar').classList.toggle('left-[-300px]');
 

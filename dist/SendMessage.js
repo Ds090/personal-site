@@ -47,9 +47,11 @@ function ValidEmail() {
 
 let section = document.querySelectorAll('.section');
 let navLink = document.querySelectorAll('.nav_link');
+// let SlidBar = document.querySelector('.slid-bar');
 
 let currentSection = 'home';
 window.addEventListener('scroll', () =>{
+    // const SlidBars = SlidBar.values
     section.forEach(sections => {
         if (window.scrollY >= (sections.offsetTop - sections.clientHeight / 2)) {
             currentSection = sections.id;
@@ -61,6 +63,9 @@ window.addEventListener('scroll', () =>{
             document.querySelector('.active').classList.remove('active');
             navLinks.classList.add('active');
         }
+        let slid =  document.querySelector('.slid-bar').classList.toggle('right-[-300px]');
+
     });
+
 });
 
