@@ -1075,20 +1075,24 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-1000 {
-  transition-delay: 1000ms;
-}
-
 .delay-150 {
   transition-delay: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
+.delay-1000 {
+  transition-delay: 1000ms;
 }
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .ease-in-out {
@@ -1549,4 +1553,5 @@ html{
   }
 }
 
+    
     
