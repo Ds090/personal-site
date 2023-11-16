@@ -785,8 +785,8 @@ video {
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
-.overflow-y-auto {
-  overflow-y: auto;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
@@ -1075,16 +1075,12 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-150 {
-  transition-delay: 150ms;
-}
-
 .delay-1000 {
   transition-delay: 1000ms;
 }
 
-.duration-500 {
-  transition-duration: 500ms;
+.delay-150 {
+  transition-delay: 150ms;
 }
 
 .duration-1000 {
@@ -1093,6 +1089,10 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
 
 .ease-in-out {
