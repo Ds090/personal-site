@@ -6,6 +6,11 @@
     @apply hidden;
     }
 
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
     html{
         scroll-behavior: smooth;
     }
@@ -28,5 +33,6 @@
     }
     .bio{
         animation: slide 1.5s ease-in-out;
+        
+        
     }
-    

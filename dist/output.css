@@ -1107,6 +1107,11 @@ video {
   display: none;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -1290,8 +1295,8 @@ html{
   --tw-gradient-to: #a8a29e var(--tw-gradient-to-position);
 }
 
-:is(.dark .dark\:to-white) {
-  --tw-gradient-to: #fff var(--tw-gradient-to-position);
+:is(.dark .dark\:to-stone-700) {
+  --tw-gradient-to: #44403c var(--tw-gradient-to-position);
 }
 
 :is(.dark .dark\:bg-clip-text) {
@@ -1566,4 +1571,3 @@ html{
     line-height: 1.75rem;
   }
 }
-    
