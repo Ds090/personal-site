@@ -54,16 +54,17 @@ window.addEventListener('scroll', () =>{
     // const SlidBars = SlidBar.values
     section.forEach(sections => {
         if (window.scrollY >= (sections.offsetTop - sections.clientHeight / 2)) {
-            currentSection = sections.id;
+            currentSection = sections.id; 
         }
+        
     });
 
     navLink.forEach(navLinks => {
         if(navLinks.href.includes(currentSection)){
             document.querySelector('.active').classList.remove('active');
             navLinks.classList.add('active');
+            
         }
-        let slid =  document.querySelector('.slid-bar').classList.toggle('right-[-300px]');
 
     });
 
