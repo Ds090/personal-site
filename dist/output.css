@@ -687,6 +687,10 @@ video {
   width: 100%;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -1470,8 +1474,8 @@ html{
 }
 
 @media (min-width: 640px) {
-  .sm\:w-\[350px\] {
-    width: 350px;
+  .sm\:w-\[400px\] {
+    width: 400px;
   }
 }
 
@@ -1484,8 +1488,8 @@ html{
     display: none;
   }
 
-  .md\:w-\[350px\] {
-    width: 350px;
+  .md\:w-\[400px\] {
+    width: 400px;
   }
 
   .md\:w-\[50\%\] {
@@ -1532,6 +1536,10 @@ html{
     display: none;
   }
 
+  .lg\:w-\[200px\] {
+    width: 200px;
+  }
+
   .lg\:w-\[290px\] {
     width: 290px;
   }
@@ -1554,6 +1562,14 @@ html{
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[450px\] {
+    width: 450px;
+  }
+
+  .lg\:w-\[480px\] {
+    width: 480px;
   }
 
   .lg\:flex-row {
@@ -1591,3 +1607,4 @@ html{
     line-height: 1.75rem;
   }
 }
+    
