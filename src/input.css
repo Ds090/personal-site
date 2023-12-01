@@ -68,3 +68,6 @@
     .show-sidebar{
         transform: translateX(0%) !important;
     }
+    .img{
+        filter: brightness(0);
+    }
