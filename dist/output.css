@@ -1133,7 +1133,7 @@ html{
 }
 
 .change .bar1{
-  transform: rotate(-45deg) translate(-7px, 8px);
+  transform: rotate(-45deg) translate(-6px, 8px);
 }
 
 .change .bar2{
@@ -1141,7 +1141,7 @@ html{
 }
 
 .change .bar3{
-  transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
 }
 
 .slid-bar{
