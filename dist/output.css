@@ -1509,6 +1509,10 @@ html{
   .sm\:w-\[400px\] {
     width: 400px;
   }
+
+  .sm\:w-\[500px\] {
+    width: 500px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1526,6 +1530,10 @@ html{
 
   .md\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
   }
 
   .md\:flex-row {
