@@ -663,10 +663,6 @@ video {
   width: 180px;
 }
 
-.w-\[200px\] {
-  width: 200px;
-}
-
 .w-\[300px\] {
   width: 300px;
 }
@@ -689,10 +685,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[00px\] {
-  width: 00px;
 }
 
 @keyframes bounce {
@@ -1134,8 +1126,8 @@ html{
 }
 
 .cont div{
-  width: 35px;
-  height: 5px;
+  width: 30px;
+  height: 4px;
   margin: 6px 0;
   transition: all 0.4s;
 }
@@ -1520,18 +1512,6 @@ html{
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-1 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:font-bold {
