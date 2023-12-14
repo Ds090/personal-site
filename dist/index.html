@@ -13,8 +13,8 @@
    
     
 <!-- Nav bar -->
-        <nav class="slid-Bar text-white flex justify-around items-center w-full h-[60px] shadow-md shadow-pink-100 gap-5 font-sans  bg-black dark:bg-white">
-            <h1 class="text-2xl font-bold dark:text-black bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text" id="head">DIVS.in</h1>
+        <nav class="slid-Bar text-white flex justify-between items-center w-full h-[60px] shadow-md shadow-pink-100 gap-5 font-sans  bg-black dark:bg-white">
+            <h1 class="text-2xl font-bold dark:text-black bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text lg:ml-[100px] ml-5" id="head">DIVS.in</h1>
 
             <ul class="hidden md:flex justify-evenly gap-9">
                 <li class="text-lg font-bold cursor-pointer hover:bg-gradient-to-br hover:from-red-700 hover:to-purple-700 hover:text-transparent hover:bg-clip-text
@@ -34,13 +34,13 @@
                 dark:hover:bg-gradient-to-br dark:hover:from-red-700 dark:hover:to-purple-700 dark:hover:text-transparent dark:hover:bg-clip-text dark:font-bold dark:text-lg dark:font-sans dark:cursor-pointer dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300 dark:hover:delay-100 dark:text-black"><a href="#Contact" class="nav_link">Contact</a></li>
             </ul>
 
-            <div class="flex items-start">
+            <div class="flex items-start lg:mr-[100px] md:mr-[50px] " id="moon-box">
                 <img src="./night-mode.png" class="moon  text-3xl cursor-pointer w-12 "></img>
 
                 <img src="./sun.png" class="sun  text-3xl cursor-pointer w-10"></img>
             </div>
 
-            <div class="nav-toggle md:hidden"  >
+            <div class="nav-toggle md:hidden mr-5"  >
                 <div class="cont">
                     <div class="bar1 bg-white dark:bg-black"></div>
                     <div class="bar2 bg-white dark:bg-black"></div>
@@ -48,10 +48,10 @@
                 </div>
             </div>
 
-            <div class="slid-bar absolute top-0 bottom-0  w-[180px] h-[360px]  dark:bg-white bg-black rounded-md md:hidden" id="slid-bar">
-                <div class="" style="animation-delay: 0.2s;">
-                    <h1 class="text-2xl dark:text-2xl dark:font-bold font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text shadow-md shadow-white dark:shadow-md dark:shadow-pink-100 px-3 py-3 pt-4  duration-300" >DIVS.in</h1>
-                </div>
+            <div class="slid-bar absolute top-0 bottom-0  w-[200px] h-[360px]  dark:bg-white bg-black rounded-md md:hidden " id="slid-bar">
+                <div class="shadow-md shadow-white dark:shadow-md dark:shadow-pink-100 flex flex-row justify-between items-center gap-[20px]" style="animation-delay: 0.2s;">
+                    <h1 class="text-2xl dark:text-2xl dark:font-bold font-bold bg-gradient-to-br from-black to-white text-transparent bg-clip-text dark:bg-gradient-to-br dark:from-black dark:to-stone-400 dark:text-transparent dark:bg-clip-text  px-3 py-3 pt-4  duration-300 flex justify-between" >DIVS.in</h1>
+                 </div>
                 
                 <div class="p-2 mt-3 flex justify-center items-center rounded-md px-4 duration-300 cursor-pointer bg-gray-900  hover:shadow-md hover:shadow-indigo-400 hover:transition hover:inset-auto hover:duration-500 hover:delay-150 dark:hover:shadow-md dark:hover:shadow-red-700 dark:hover:transition dark:hover:inset-auto dark:hover:duration-500 dark:hover:delay-150 " style="animation-delay: 0.2s;">
         
@@ -132,7 +132,7 @@
         
         <div class="mb-8 flex items-center justify-center flex-col ">
             <img src="./dev.png" alt="" class="w-[500px] sm:w-[500px] md:w-[500px] lg:w-[500px] img">
-            <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 sm:w-[400px] w-[330px] lg:w-[430px]"></div>
+            <div class="rounded p-[2px] bg-red-700 shadow-md shadow-red-700 sm:w-[400px] w-[350px] lg:w-[430px] line"></div>
         </div>
 
 
@@ -277,18 +277,18 @@
             
         </div>
 
-    <div class="flex flex-wrap flex-col gap-5 mt-9 lg:w-[30%] bio">
-        <input type="text" placeholder="e.g. example@email.com" id="email" oninput="ValidEmail()" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono">
-        <input type="text" placeholder="e.g. Divanshu" id="Name" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"> 
-        <textarea placeholder="Write your message" id="messageBox" class=" py-1 rounded px-3 lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono"></textarea>
-        <div id="ValidMail" class="text-white font-mono text-lg font-semibold w-[320px] lg:w-[400px]"></div>
+    <div class="flex flex-wrap flex-col gap-5 mt-9 lg:w-[30%] bio ">
+        <input type="text" placeholder="e.g. example@email.com" id="email" oninput="ValidEmail()" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono contect">
+        <input type="text" placeholder="e.g. Divanshu" id="Name" class=" py-1 rounded px-1 w-[320px] lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono  contect"> 
+        <textarea placeholder="Write your message" id="messageBox" class=" py-1 rounded px-3 lg:w-[400px] shadow-md shadow-teal-500 border focus:shadow-md focus:shadow-red-700 font-semibold font-mono contect"></textarea>
+        <div id="ValidMail" class="text-white font-mono text-lg font-semibold w-[320px] lg:w-[400px] contect"></div>
 
         <button type="button" class=" text-white px-5 py-1 rounded mt-1 
         border border-red-700 hover:border-none
         dark:text-black
         hover:bg-gradient-to-r hover:from-pink-700
          hover:to-indigo-700 hover:text-black font-bold text-lg hover:shadow-md hover:shadow-pink-200 transition ease-in-out duration-500 delay-150
-        dark:hover:shadow-md dark:hover:shadow-pink-500 dark:transition dark:ease-in-out dark:duration-500 dark:delay-150 lg:w-[400px]" onclick="Send()"><span class="bg-gradient-to-br from-black to-white text-transparent bg-clip-text">Send</span></button>
+        dark:hover:shadow-md dark:hover:shadow-pink-500 dark:transition dark:ease-in-out dark:duration-500 dark:delay-150 lg:w-[400px] contect" onclick="Send()"><span class="bg-gradient-to-br from-black to-white text-transparent bg-clip-text">Send</span></button>
     </div>
 
     </section>
@@ -317,6 +317,9 @@
             let navToggle = document.querySelector('.nav-toggle');
             let Slid_bar = document.querySelector('.slid-bar');
             let Heading = document.getElementById('head');
+            let moonbox = document.getElementById('moon-box');
+
+            
 
           
             let x = document.querySelector('.cont');
@@ -324,9 +327,12 @@
                 x.classList.toggle('change');
                 if(Slid_bar.classList.toggle("show-sidebar")){
                     Heading.innerText = ""
-                }else{
-                    Heading.innerText = "DIVS.in"
+                    moonbox.style.display = 'none'
                 }
+                else{
+                    Heading.innerText = "DIVS.in"
+                    moonbox.style.display = 'block'
+                }    
                 
                               
             })

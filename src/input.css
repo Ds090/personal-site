@@ -32,9 +32,7 @@
         }
     }
     .bio{
-        animation: slide 1.5s ease-in-out;
-        
-        
+        animation: slide 1.5s ease-in-out;        
     }
 
     .cont{
@@ -69,3 +67,11 @@
         transform: translateX(0%) !important;
     }
     
+    @media screen and (max-width: 320px){
+        .line{
+            width: 245px;
+        }
+        .contect{
+            width: 245px;
+        }
+    }
