@@ -60,7 +60,7 @@
 
     .slid-bar{
         transition: all .6s ease;
-        transform: translateY(-200%)
+        transform: translateX(-200%)
     }
 
     .show-sidebar{
