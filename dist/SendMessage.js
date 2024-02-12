@@ -55,6 +55,7 @@ window.addEventListener('scroll', () =>{
     section.forEach(sections => {
         if (window.scrollY >= (sections.offsetTop - sections.clientHeight / 2)) {
             currentSection = sections.id; 
+            
         }
         
     });
